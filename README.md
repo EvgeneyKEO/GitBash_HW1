@@ -36,4 +36,6 @@ mkdir
 cd
 touch
 mkdir
+ls -la
+mv
 ```
