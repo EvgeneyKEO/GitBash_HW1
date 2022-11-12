@@ -15,7 +15,7 @@ _____________________________________________
 11. Сохранить и выйти - `Esc + :wq`
 12. Выйти из папки на уровень выше - `cd ..`
 13. Переместить любые 2 файла, которые вы создали, в любую другую папку - `mv D:/31groupGITBASH/gitrepo/TerminalLinux/HW_1/folder_1/file4.json D:/31groupGITBASH/gitrepo/TerminalLinux/HW_1/folder_1/file5.json D:/31groupGITBASH/gitrepo/TerminalLinux/HW_1/folder_2`
-14. Cкопировать любые 2 файла, которые вы создали, в любую другую папку - `cp D:/31groupGITBASH/gitrepo/TerminalLinux/HW_1/folder_1/file1.txt D:/31groupGITBASH/gitrepo/HW_1/folder_1/file2.txt D:/31groupGITBASH/gitrepo/TerminalLinux/HW_1/folder_3`
+14. Cкопировать любые 2 файла, которые вы создали, в любую другую папку - `cp D:/31groupGITBASH/gitrepo/TerminalLinux/HW_1/folder_1/file1.txt D:/31groupGITBASH/gitrepo/TerminalLinux/HW_1/folder_1/file2.txt D:/31groupGITBASH/gitrepo/TerminalLinux/HW_1/folder_3`
 15. Найти файл по имени - `find -name file1.txt`
 16. Просмотреть содержимое в реальном времени (команда grep) изучите как она работает - `grep "бесконечно" D:/31groupGITBASH/gitrepo/TerminalLinux/HW_1/folder_3/file1.txt`
 17. Вывести несколько первых строк из текстового файла - `head -2 D:/31groupGITBASH/gitrepo/TerminalLinux/HW_1/folder_3/file1.txt`
