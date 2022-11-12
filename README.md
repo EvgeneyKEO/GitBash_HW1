@@ -32,7 +32,7 @@ _____________________________________________
 ```
 Файл со скриптом - [script.sh](https://github.com/EvgeneyKEO/TerminalLinux/blob/67c8599bc08e0a8a946a854269542a72809c083a/script.sh)
 
-Команда в терминале - `./script.`
+Команда в терминале - `./script.sh`
 
 #!/bin/bash
 cd folder_2/
