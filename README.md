@@ -96,7 +96,7 @@ ________________________________________________________________________________
                                                               ```
 
 
- 16. На веб интерфейсе создать файл bug_report.json.        - `[bug_report.json](https://github.com/EvgeneyKEO/JSON/blob/62d356725170363a1826bcee6f123ea125e261fe/bug_report.json)`
+ 16. На веб интерфейсе создать файл bug_report.json.        - [bug_report.json](https://github.com/EvgeneyKEO/JSON/blob/62d356725170363a1826bcee6f123ea125e261fe/bug_report.json)
 
 
  17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
