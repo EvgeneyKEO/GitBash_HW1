@@ -85,12 +85,12 @@ ________________________________________________________________________________
 
  14. Создать файл skills.json добавить информацию о скиллах
 которые будут изучены на курсе в формате JSON               - ```vim skills.json после нажать на i ввести информацию о себе в формате JSON
-                                                                 {"instruments":"postman","SQL","Jmeter","Python","Terminal","Android          
-                                                                 Studio","XCode","DevTools","Charles","Fiddler","GitBash"}
-                                                                 после окончания ввода нажать Esc ввести :wq
+                                                                {"instruments":"postman","SQL","Jmeter","Python","Terminal","Android
+                                                                Studio","XCode","DevTools","Charles","Fiddler","GitBash"}
+                                                                после окончания ввода нажать Esc ввести :wq
                                                               ```
 
- 15. Отправить сразу 2 файла на внешний репозиторий.        - ```git add . 
+ 15. Отправить сразу 2 файла на внешний репозиторий.        - ```git add .
                                                                  git commit -m "add two new files: new preferences.json skills.json"
                                                                  git push
                                                               ```
