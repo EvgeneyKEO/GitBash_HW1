@@ -64,24 +64,34 @@ ________________________________________________________________________________
 информацию о себе (ФИО, возраст, количество домашних
 животных, будущая желаемая зарплата).
 Всё написать в формате JSON.                                - ```vim new.json после нажать на i ввести информацию о себе в формате JSON
-                                                               {"FIO":"Kandyba Evgeney Olegovich";"age":25;"pets":1;"salary":2000}```
+                                                               {"FIO":"Kandyba Evgeney Olegovich";"age":25;"pets":1;"salary":2000}
+                                                               после окончания ввода нажать Esc ввести :wq```
+                                                               
 
- 11. Отправить изменения на внешний репозиторий.            - `git add . git commit -m "update new.json" git push`
+ 11. Отправить изменения на внешний репозиторий.            - ```git add . 
+                                                                 git commit -m "update new.json" 
+                                                                 git push```
  
  12. Создать файл preferences.json                          - `touch preferences.json`
 
  13. В файл preferences.json добавить информацию о своих 
 предпочтениях (Любимый фильм, любимый сериал, любимая еда,
 любимое время года, сторона которую хотели бы посетить) 
-в формате JSON.                                             - ```vim preferences.json после нажать на i ввести информацию о себе в формате JSON                                                                                          {"film":"1+1";"serial":"Peaky_Blinders";"food":"salat";"season":"winter";"country":"USA"}```
+в формате JSON.                                             - ```vim preferences.json после нажать на i ввести информацию о себе в формате JSON                                                                                          {"film":"1+1";"serial":"Peaky_Blinders";"food":"salat";"season":"winter";"country":"USA"}
+                                                                 после окончания ввода нажать Esc ввести :wq```
 
- 14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
+ 14. Создать файл skills.json добавить информацию о скиллах
+которые будут изучены на курсе в формате JSON               - ```vim skills.json после нажать на i ввести информацию о себе в формате JSON
+                                                                 {"instruments":"postman","SQL","Jmeter","Python","Terminal","Android          
+                                                                 Studio","XCode","DevTools","Charles","Fiddler","GitBash"}
+                                                                 после окончания ввода нажать Esc ввести :wq````
+
+ 15. Отправить сразу 2 файла на внешний репозиторий.        - ```git add . 
+                                                                 git commit -m "add two new files: new preferences.json skills.json"
+                                                                 git push```
 
 
- 15. Отправить сразу 2 файла на внешний репозиторий.
-
-
- 16. На веб интерфейсе создать файл bug_report.json.
+ 16. На веб интерфейсе создать файл bug_report.json.        - 
 
 
  17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
