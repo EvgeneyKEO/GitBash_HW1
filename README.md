@@ -144,11 +144,23 @@ ________________________________________________________________________________
                                                                  </info>
                                                               ```
 
- 28. Отправить изменения на внешний репозиторий.
+ 28. Отправить изменения на внешний репозиторий.             - ```git commit -am "update new.xml"
+                                                                  git push
+                                                              ```
 
- 29. Создать файл preferences.xml
+ 29. Создать файл preferences.xml                            - `touch preferences.xml` 
 
- 30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
+ 30. В файл preferences.xml добавить информацию о своих 
+предпочтениях (Любимый фильм, любимый сериал, любимая еда,
+ любимое время года, сторона которую хотели бы посетить)
+ в формате XML.                                              - ```<info>
+	                                                                       <favorite_movie>1+1</favorite_movie>
+		                                                                      <favorite_TV_series>Peaky Blinders</favorite_TV_series>
+	                                                                       <favorite_food>salat</favorite_food>
+		                                                                      <favorite_time_of_the_year>winter</favorite_time_of_the_year> 
+	                                                                       <the_country_you_would_like_to_visit>USA</the_country_you_would_like_to_visit>
+	                                                                </info>
+                                                              ```   
 
  31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
 
