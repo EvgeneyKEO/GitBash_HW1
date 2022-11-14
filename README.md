@@ -154,15 +154,16 @@ ________________________________________________________________________________
 предпочтениях (Любимый фильм, любимый сериал, любимая еда,
  любимое время года, сторона которую хотели бы посетить)
  в формате XML.                                              - ```<info>
-	                                                                       <favorite_movie>1+1</favorite_movie>
-		                                                                      <favorite_TV_series>Peaky Blinders</favorite_TV_series>
-	                                                                       <favorite_food>salat</favorite_food>
-		                                                                      <favorite_time_of_the_year>winter</favorite_time_of_the_year> 
-	                                                                       <the_country_you_would_like_to_visit>USA</the_country_you_would_like_to_visit>
-	                                                                </info>
+	                                                                 <favorite_movie>1+1</favorite_movie>
+		                                                         <favorite_TV_series>Peaky Blinders</favorite_TV_series>
+	                                                                 <favorite_food>salat</favorite_food>
+		                                                         <favorite_time_of_the_year>winter</favorite_time_of_the_year> 
+	                                                                 <the_country_you_would_like_to_visit>USA</the_country_you_would_like_to_visit>
+	                                                          </info>
                                                               ```   
 
- 31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
+ 31. Создать файл skills.xml добавить информацию о скиллах
+ которые будут изучены на курсе в формате XML		      - 
 
  32. Сделать коммит в одну строку.
 
