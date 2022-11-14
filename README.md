@@ -136,17 +136,17 @@ ________________________________________________________________________________
  27. Отредактировать содержание файла “new.xml” - 
 написать информацию о себе (ФИО, возраст, 
 количество домашних животных, будущая желаемая зарплата). 
-Всё написать в формате XML.                                  - ``` <info>
-                                                                        	<FIO>Kandyba Evgeney Olegovich</FIO>
+Всё написать в формате XML.                                  - ```<info>
+                                                                       	 <FIO>Kandyba Evgeney Olegovich</FIO>
                                                                          <age>24</age>
                                                                          <pets>1</pets>    
-	                                                                        <salary>2000</salary>	
-	                                                                        <favorite_movie>1+1</favorite_movie>
-	                                                                        <favorite_TV_series>Peaky Blinders</favorite_TV_series>
-	                                                                        <favorite_food>salat</favorite_food>
+	                                                                 <salary>2000</salary>	
+	                                                                 <favorite_movie>1+1</favorite_movie>
+	                                                                 <favorite_TV_series>Peaky Blinders</favorite_TV_series>
+	                                                                 <favorite_food>salat</favorite_food>
                                                                          <favorite_time_of_the_year>winter</favorite_time_of_the_year> 
                                                                          <the_country_you_would_like_to_visit>USA</the_country_you_would_like_to_visit>
-                                                                         </info>
+                                                                   </info>
                                                                 ```
  28. Отправить изменения на внешний репозиторий.
 
