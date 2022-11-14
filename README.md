@@ -51,7 +51,7 @@ ________________________________________________________________________________
  
  ### GIT file JSON
  
- 4. Создать внешний репозиторий c названием JSON            - **[JSON repo](git@github.com:EvgeneyKEO/JSON.git)**
+ 4. Создать внешний репозиторий c названием JSON            - [JSON_repo](git@github.com:EvgeneyKEO/JSON.git)
 
  5. Клонировать репозиторий JSON на локальный компьютер     - `git clone git@github.com:EvgeneyKEO/JSON.git`
 
