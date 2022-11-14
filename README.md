@@ -111,31 +111,43 @@ ________________________________________________________________________________
  19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
 
 
- 20. Синхронизировать внешний и локальный репозиторий JSON - `git pull`
+ 20. Синхронизировать внешний и локальный репозиторий JSON   - `git pull`
 ***********
  ### GIT file TXT
 **********
- 21. Создать внешний репозиторий c названием XML.
+ 21. Создать внешний репозиторий c названием XML.            - [XML](https://github.com/EvgeneyKEO/XML.git)
 
 
- 22. Клонировать репозиторий XML на локальный компьютер.
+ 22. Клонировать репозиторий XML на локальный компьютер.     - `git clone https://github.com/EvgeneyKEO/XML.git`
 
 
- 23. Внутри локального XML создать файл “new.xml”.
+ 23. Внутри локального XML создать файл “new.xml”.           - `touch new.xml`
 
 
- 24. Добавить файл под гит.
+ 24. Добавить файл под гит.                                  - `git add .`
 
 
- 25. Закоммитить файл.
+ 25. Закоммитить файл.                                       - `git commit -m "add new.xml"`
 
 
- 26. Отправить файл на внешний GitHub репозиторий.
+ 26. Отправить файл на внешний GitHub репозиторий.           - `git push`
 
 
- 27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
-
-
+ 27. Отредактировать содержание файла “new.xml” - 
+написать информацию о себе (ФИО, возраст, 
+количество домашних животных, будущая желаемая зарплата). 
+Всё написать в формате XML.                                  - ``` <info>
+                                                                        	<FIO>Kandyba Evgeney Olegovich</FIO>
+                                                                         <age>24</age>
+                                                                         <pets>1</pets>    
+	                                                                        <salary>2000</salary>	
+	                                                                        <favorite_movie>1+1</favorite_movie>
+	                                                                        <favorite_TV_series>Peaky Blinders</favorite_TV_series>
+	                                                                        <favorite_food>salat</favorite_food>
+                                                                         <favorite_time_of_the_year>winter</favorite_time_of_the_year> 
+                                                                         <the_country_you_would_like_to_visit>USA</the_country_you_would_like_to_visit>
+                                                                         </info>
+                                                                ```
  28. Отправить изменения на внешний репозиторий.
 
  29. Создать файл preferences.xml
