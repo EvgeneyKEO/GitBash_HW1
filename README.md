@@ -75,7 +75,7 @@ ________________________________________________________________________________
  11. Отправить изменения на внешний репозиторий.            - ```git add . 
                                                                  git commit -m "update new.json" 
                                                                  git push
-                                                              ```    [new.json](https://github.com/EvgeneyKEO/JSON/blob/cc2c6d91e579d92e0c575d1b85dd255531e6935c/new.json)
+                                                              ``` [new.json](https://github.com/EvgeneyKEO/JSON/blob/cc2c6d91e579d92e0c575d1b85dd255531e6935c/new.json)
 
  12. Создать файл preferences.json                          - `touch preferences.json`
 
