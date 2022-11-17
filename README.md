@@ -169,7 +169,7 @@ ________________________________________________________________________________
 
  33. Отправить сразу 2 файла на внешний репозиторий.	      - `git push`
 
- 34. На веб интерфейсе создать файл bug_report.xml.           - `Add file --> Create new file`
+ 34. На веб интерфейсе создать файл bug_report.xml.           - Add file --> Create new file [bug_report.xml](https://github.com/EvgeneyKEO/XML/blob/80e38f039f2898659ea6d7ffd6e2477226ddcb08/bug_report.xml)
 
  35. Сделать Commit changes (сохранить) изменения 
 на веб интерфейсе.					      - `Commit new file`
