@@ -76,7 +76,7 @@ ________________________________________________________________________________
                                                                  git commit -m "update new.json" 
                                                                  git push
                                                               ```
- 
+
  12. Создать файл preferences.json                          - `touch preferences.json`
 
  13. В файл preferences.json добавить информацию о своих 
@@ -100,21 +100,16 @@ ________________________________________________________________________________
 							      [preferences.json](https://github.com/EvgeneyKEO/JSON/blob/cc2c6d91e579d92e0c575d1b85dd255531e6935c/bug_report.json)
 							      [skills.json](https://github.com/EvgeneyKEO/JSON/blob/cc2c6d91e579d92e0c575d1b85dd255531e6935c/skills.json)
 
-
- 16. На веб интерфейсе создать файл bug_report.json.        - `Add file --> Create new file` [bug_report.json](https://github.com/EvgeneyKEO/JSON/blob/62d356725170363a1826bcee6f123ea125e261fe/bug_report.json)
-
+ 16. На веб интерфейсе создать файл bug_report.json.        - `Add file --> Create new file` [bug_report.json](https://github.com/EvgeneyKEO/JSON/blob/cc2c6d91e579d92e0c575d1b85dd255531e6935c/skills.json)
 
  17. Сделать Commit changes (сохранить) 
 изменения на веб интерфейсе.				    - `Commit new file` 
 
-
  18. На веб интерфейсе модифицировать файл 
 bug_report.json, добавить баг репорт в формате JSON.        - `Choose bug_report.json --> Edit this file` 
 
-
  19. Сделать Commit changes (сохранить) изменения
 на веб интерфейсе.					    - ``
-
 
  20. Синхронизировать внешний и локальный репозиторий JSON   - `git pull`
  _________________________________________________________________________________
