@@ -77,7 +77,7 @@ ________________________________________________________________________________
                                                                  git push
                                                               ```
  
- 12. Создать файл preferences.json                          - `touch preferences.json` [preferences.json](https://github.com/EvgeneyKEO/JSON/blob/cc2c6d91e579d92e0c575d1b85dd255531e6935c/bug_report.json)
+ 12. Создать файл preferences.json                          - `touch preferences.json` [preferences.json]															(https://github.com/EvgeneyKEO/JSON/blob/cc2c6d91e579d92e0c575d1b85dd255531e6935c/bug_report.json)
 
  13. В файл preferences.json добавить информацию о своих 
 предпочтениях (Любимый фильм, любимый сериал, любимая еда,
