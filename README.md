@@ -86,8 +86,7 @@ ________________________________________________________________________________
  16. На веб интерфейсе создать файл bug_report.json.        - `Add file --> Create new file --> Name: bug_report.json`
 
  17. Сделать Commit changes (сохранить) 
-изменения на веб интерфейсе.				    - `Commit new file`  
-							       [bug_report.json](https://github.com/EvgeneyKEO/JSON/blob/cc2c6d91e579d92e0c575d1b85dd255531e6935c/skills.json)
+изменения на веб интерфейсе.				    - `Commit new file`  [bug_report.json](https://github.com/EvgeneyKEO/JSON/blob/cc2c6d91e579d92e0c575d1b85dd255531e6935c/skills.json)
 
  18. На веб интерфейсе модифицировать файл 
 bug_report.json, добавить баг репорт в формате JSON.        - `Choose bug_report.json --> Edit this file` 
