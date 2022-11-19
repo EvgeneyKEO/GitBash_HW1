@@ -66,7 +66,7 @@ ________________________________________________________________________________
  10. Отредактировать содержание файла “new.json” - написать 
 информацию о себе (ФИО, возраст, количество домашних
 животных, будущая желаемая зарплата).
-Всё написать в формате JSON.                                - `vim preferences.json` ---> input data ---> esc ---> enter ":wq"``
+Всё написать в формате JSON.                                - `vim preferences.json ---> input data ---> esc ---> enter ":wq"`
                                                                
  11. Отправить изменения на внешний репозиторий.            - `git add . && git commit -m "update new.json" && git push`
  							       [new.json](https://github.com/EvgeneyKEO/JSON/blob/cc2c6d91e579d92e0c575d1b85dd255531e6935c/new.json)
@@ -76,22 +76,20 @@ ________________________________________________________________________________
  13. В файл preferences.json добавить информацию о своих 
 предпочтениях (Любимый фильм, любимый сериал, любимая еда,
 любимое время года, сторона которую хотели бы посетить) 
-в формате JSON.                                             - `vim preferences.json` ---> input data ---> esc ---> enter ":wq"`
+в формате JSON.                                             - `vim preferences.json ---> input data ---> esc ---> enter ":wq"`
 
  14. Создать файл skills.json добавить информацию о скиллах
-которые будут изучены на курсе в формате JSON               - ``
+которые будут изучены на курсе в формате JSON               - `cat >> skills.json ---> input data ---> ctrl + c`
 
- 15. Отправить сразу 2 файла на внешний репозиторий.        - ```git add .
-                                                                 git commit -m "add two new files: new preferences.json skills.json"
-                                                                 git push
-                                                              ```
-							      [preferences.json](https://github.com/EvgeneyKEO/JSON/blob/cc2c6d91e579d92e0c575d1b85dd255531e6935c/bug_report.json)
+ 15. Отправить сразу 2 файла на внешний репозиторий.        - `git commit -am "add new file" && git push`
+						              [preferences.json](https://github.com/EvgeneyKEO/JSON/blob/cc2c6d91e579d92e0c575d1b85dd255531e6935c/bug_report.json)
 							      [skills.json](https://github.com/EvgeneyKEO/JSON/blob/cc2c6d91e579d92e0c575d1b85dd255531e6935c/skills.json)
 
- 16. На веб интерфейсе создать файл bug_report.json.        - `Add file --> Create new file`
+ 16. На веб интерфейсе создать файл bug_report.json.        - `Add file --> Create new file --> Name: bug_report.json`
 
  17. Сделать Commit changes (сохранить) 
-изменения на веб интерфейсе.				    - `Commit new file`  [bug_report.json](https://github.com/EvgeneyKEO/JSON/blob/cc2c6d91e579d92e0c575d1b85dd255531e6935c/skills.json)
+изменения на веб интерфейсе.				    - `Commit new file`  
+							       [bug_report.json](https://github.com/EvgeneyKEO/JSON/blob/cc2c6d91e579d92e0c575d1b85dd255531e6935c/skills.json)
 
  18. На веб интерфейсе модифицировать файл 
 bug_report.json, добавить баг репорт в формате JSON.        - `Choose bug_report.json --> Edit this file` 
@@ -191,7 +189,7 @@ bug_report.json, добавить баг репорт в формате JSON.   
  в формате TXT.						      - `vim preferences.txt` ---> input data ---> esc ---> enter ":wq"
 
  49. Создать файл skills.txt добавить информацию о скиллах 
- которые будут изучены на курсе в формате TXT.		      - `cat >> skills.txt` ---> input data ---> ctrl + c
+ которые будут изучены на курсе в формате TXT.		      - `cat >> skills.txt ---> input data ---> ctrl + c`
 
  50. Сделать коммит в одну строку.			      - `git commit -am "add new file"`
 
