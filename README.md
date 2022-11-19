@@ -179,7 +179,7 @@ bug_report.json, добавить баг репорт в формате JSON.   
  49. Создать файл skills.txt добавить информацию о скиллах 
  которые будут изучены на курсе в формате TXT.		      - `cat >> skills.txt ---> input data ---> ctrl + c`
 
- 50. Сделать коммит в одну строку.			      - `git add . && git commit "add new file"`
+ 50. Сделать коммит в одну строку.			      - `git add . && git commit -m "add new file"`
 
  51. Отправить сразу 2 файла на внешний репозиторий.	      - `git push`
  								[preferences.txt]()
