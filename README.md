@@ -115,8 +115,7 @@ bug_report.json, добавить баг репорт в формате JSON.   
  домашних животных, будущая желаемая зарплата). 
 Всё написать в формате XML.                                  - `vim new.xml ---> input data ---> esc ---> enter ":wq"`
 
- 28. Отправить изменения на внешний репозиторий.             - `git commit -am "update file" && git push`                                                               
-								[new.xml](https://github.com/EvgeneyKEO/XML/blob/80e38f039f2898659ea6d7ffd6e2477226ddcb08/new.xml)
+ 28. Отправить изменения на внешний репозиторий.             - `git commit -am "update file" && git push` [new.xml](https://github.com/EvgeneyKEO/XML/blob/80e38f039f2898659ea6d7ffd6e2477226ddcb08/new.xml)
 
  29. Создать файл preferences.xml                            - `touch preferences.xml` 
 
