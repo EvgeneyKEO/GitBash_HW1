@@ -51,7 +51,7 @@ ________________________________________________________________________________
  _________________________________________________________________________________
  ### JSON
  _________________________________________________________________________________
- 4. Создать внешний репозиторий c названием JSON            - [JSON](https://github.com/EvgeneyKEO/JSON.git)**
+ 4. Создать внешний репозиторий c названием JSON            - [JSON](https://github.com/EvgeneyKEO/JSON.git)
 
  5. Клонировать репозиторий JSON на локальный компьютер     - `git clone git@github.com:EvgeneyKEO/JSON.git`
 
@@ -66,9 +66,9 @@ ________________________________________________________________________________
  10. Отредактировать содержание файла “new.json” - написать 
 информацию о себе (ФИО, возраст, количество домашних
 животных, будущая желаемая зарплата).
-Всё написать в формате JSON.                                - `vim preferences.json ---> input data ---> esc ---> enter ":wq"`
+Всё написать в формате JSON.                                - `vim new.json ---> input data ---> esc ---> enter ":wq"`
                                                                
- 11. Отправить изменения на внешний репозиторий.            - `git add . && git commit -m "update new.json" && git push`
+ 11. Отправить изменения на внешний репозиторий.            - `git commit -am "update file" && git push`
  							       [new.json](https://github.com/EvgeneyKEO/JSON/blob/cc2c6d91e579d92e0c575d1b85dd255531e6935c/new.json)
 
  12. Создать файл preferences.json                          - `touch preferences.json`
@@ -81,7 +81,7 @@ ________________________________________________________________________________
  14. Создать файл skills.json добавить информацию о скиллах
 которые будут изучены на курсе в формате JSON               - `cat >> skills.json ---> input data ---> ctrl + c`
 
- 15. Отправить сразу 2 файла на внешний репозиторий.        - `git commit -am "add new file" && git push`
+ 15. Отправить сразу 2 файла на внешний репозиторий.        - `git add . && git commit -m "add new file" && git push`
 						              [preferences.json](https://github.com/EvgeneyKEO/JSON/blob/cc2c6d91e579d92e0c575d1b85dd255531e6935c/bug_report.json)
 							      [skills.json](https://github.com/EvgeneyKEO/JSON/blob/cc2c6d91e579d92e0c575d1b85dd255531e6935c/skills.json)
 
@@ -109,44 +109,36 @@ bug_report.json, добавить баг репорт в формате JSON.   
 
  24. Добавить файл под гит.                                  - `git add .`
 
- 25. Закоммитить файл.                                       - `git commit -m "add new.xml"`
+ 25. Закоммитить файл.                                       - `git commit -m "add new file"`
 
  26. Отправить файл на внешний GitHub репозиторий.           - `git push`
 
  27. Отредактировать содержание файла “new.xml” - написать 
 информацию о себе (ФИО, возраст, количество
  домашних животных, будущая желаемая зарплата). 
-Всё написать в формате XML.                                  - 
+Всё написать в формате XML.                                  - `vim new.xml ---> input data ---> esc ---> enter ":wq"`
 
- 28. Отправить изменения на внешний репозиторий.             - ```git commit -am "update new.xml"
-                                                                  git push
-                                                              ```
-[new.xml](https://github.com/EvgeneyKEO/XML/blob/80e38f039f2898659ea6d7ffd6e2477226ddcb08/new.xml)
+ 28. Отправить изменения на внешний репозиторий.             - `git commit -am "update file" && git push`                                                               
+								[new.xml](https://github.com/EvgeneyKEO/XML/blob/80e38f039f2898659ea6d7ffd6e2477226ddcb08/new.xml)
 
  29. Создать файл preferences.xml                            - `touch preferences.xml` 
 
  30. В файл preferences.xml добавить информацию о своих 
 предпочтениях (Любимый фильм, любимый сериал, любимая еда,
  любимое время года, сторона которую хотели бы посетить)
- в формате XML.                                              - ```<info>
-	                                                                 <favorite_movie>1+1</favorite_movie>
-		                                                         <favorite_TV_series>Peaky Blinders</favorite_TV_series>
-	                                                                 <favorite_food>salat</favorite_food>
-		                                                         <favorite_time_of_the_year>winter</favorite_time_of_the_year> 
-	                                                                 <the_country_you_would_like_to_visit>USA</the_country_you_would_like_to_visit>
-	                                                          </info>
-                                                              	```   
+ в формате XML.                                              - `vim preferences.xml ---> input data ---> esc ---> enter ":wq"`
 
  31. Создать файл skills.xml добавить информацию о скиллах
- которые будут изучены на курсе в формате XML		      - `Choose skills.xml --> Edit this file`
+ которые будут изучены на курсе в формате XML		      - `cat >> skills.xml ---> input data ---> ctrl + c`
 
- 32. Сделать коммит в одну строку.                            - `git add . && git commit -m "Add new files"`
+ 32. Сделать коммит в одну строку.                            - `git add . && git commit -m "Add new files"` 
 
  33. Отправить сразу 2 файла на внешний репозиторий.	      - `git push` 
 								[preferences.xml](https://github.com/EvgeneyKEO/XML/blob/80e38f039f2898659ea6d7ffd6e2477226ddcb08/preferences.xml) 
 								[skills.xml](https://github.com/EvgeneyKEO/XML/blob/80e38f039f2898659ea6d7ffd6e2477226ddcb08/skills.xml)
 
- 34. На веб интерфейсе создать файл bug_report.xml.           - `Add file --> Create new file` [bug_report.xml](https://github.com/EvgeneyKEO/XML/blob/80e38f039f2898659ea6d7ffd6e2477226ddcb08/bug_report.xml)
+ 34. На веб интерфейсе создать файл bug_report.xml.           - `Add file --> Create new file --> Name: bug_report.xml` 
+								[bug_report.xml](https://github.com/EvgeneyKEO/XML/blob/80e38f039f2898659ea6d7ffd6e2477226ddcb08/bug_report.xml)
 
  35. Сделать Commit changes (сохранить) изменения 
 на веб интерфейсе.					      - `Commit new file`
@@ -177,21 +169,21 @@ bug_report.json, добавить баг репорт в формате JSON.   
  45. Отредактировать содержание файла “new.txt” - написать    
  информацию о себе (ФИО, возраст, количество домашних 
  животных, будущая желаемая зарплата).
- Всё написать в формате TXT. 				      - `vim new.txt` ---> input data ---> esc ---> enter ":wq"
+ Всё написать в формате TXT. 				      - `vim new.txt ---> input data ---> esc ---> enter ":wq"`
 
- 46. Отправить изменения на внешний репозиторий.	      - `git add new.txt && git commit -m "update file" && git push`
+ 46. Отправить изменения на внешний репозиторий.	      - `git commit -am "update file" && git push`
  
  47. Создать файл preferences.txt			      - `touch preferences.txt`
 
- 48. В файл preferences.txt” добавить информацию о своих 
+ 48. В файл preferences.txt добавить информацию о своих 
  предпочтениях (Любимый фильм, любимый сериал, любимая еда, 
  любимое время года, сторона которую хотели бы посетить) 
- в формате TXT.						      - `vim preferences.txt` ---> input data ---> esc ---> enter ":wq"
+ в формате TXT.						      - `vim preferences.txt ---> input data ---> esc ---> enter ":wq"`
 
  49. Создать файл skills.txt добавить информацию о скиллах 
  которые будут изучены на курсе в формате TXT.		      - `cat >> skills.txt ---> input data ---> ctrl + c`
 
- 50. Сделать коммит в одну строку.			      - `git commit -am "add new file"`
+ 50. Сделать коммит в одну строку.			      - `git add . && git commit "add new file"`
 
  51. Отправить сразу 2 файла на внешний репозиторий.	      - `git push`
  								[preferences.txt]()
@@ -209,7 +201,3 @@ bug_report.json, добавить баг репорт в формате JSON.   
  изменения на веб интерфейсе.				      - `Commit changes`
 
  56. Синхронизировать внешний и локальный репозиторий TXT     - `git pull`
- 
-
-
-
