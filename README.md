@@ -81,9 +81,7 @@ ________________________________________________________________________________
  14. Создать файл skills.json добавить информацию о скиллах
 которые будут изучены на курсе в формате JSON               - `cat >> skills.json ---> input data ---> ctrl + c`
 
- 15. Отправить сразу 2 файла на внешний репозиторий.        - `git add . && git commit -m "add new file" && git push`
-[preferences.json](https://github.com/EvgeneyKEO/JSON/blob/cc2c6d91e579d92e0c575d1b85dd255531e6935c/bug_report.json)
-[skills.json](https://github.com/EvgeneyKEO/JSON/blob/cc2c6d91e579d92e0c575d1b85dd255531e6935c/skills.json)
+ 15. Отправить сразу 2 файла на внешний репозиторий.        - `git add . && git commit -m "add new file" && git push` [preferences.json](https://github.com/EvgeneyKEO/JSON/blob/cc2c6d91e579d92e0c575d1b85dd255531e6935c/bug_report.json) [skills.json](https://github.com/EvgeneyKEO/JSON/blob/cc2c6d91e579d92e0c575d1b85dd255531e6935c/skills.json)
 
  16. На веб интерфейсе создать файл bug_report.json.        - `Add file --> Create new file --> Name: bug_report.json`
 
