@@ -150,7 +150,7 @@ bug_report.json, добавить баг репорт в формате JSON.   
 ### :large_orange_diamond: TXT
  _________________________________________________________________________________
 
- 39. Создать внешний репозиторий c названием TXT.	      - [XML](https://github.com/EvgeneyKEO/TXT.git)
+ 39. Создать внешний репозиторий c названием TXT.	      - [TXT](https://github.com/EvgeneyKEO/TXT.git)
  
  40. Клонировать репозиторий TXT на локальный компьютер	      - `git clone https://github.com/EvgeneyKEO/TXT.git`
  
