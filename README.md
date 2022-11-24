@@ -226,31 +226,31 @@ git branch Mobile_testing
 ``` 
       
 **Part 2. Запушить все ветки на внешний репозиторий**
-      ```
-      	 git push -u origin Postman
-	 git push -u origin Jmeter
-	 git push -u origin CheckLists
-	 git push -u origin BagReports
-	 git push -u origin SQL
-	 git push -u origin Charles
-	 git push -u origin Mobile_testing
-      ```
+```
+git push -u origin Postman
+git push -u origin Jmeter
+git push -u origin CheckLists
+git push -u origin BagReports
+git push -u origin SQL
+git push -u origin Charles
+git push -u origin Mobile_testing
+```
 
 **Part 3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта**
-      ```
-	 git checkout BagReports
-	 cat >>  bagrep.txt --> добавляем структуру баг репорта
-	 нажимаем ctrl+c
-      ```
+```
+git checkout BagReports
+cat >>  bagrep.txt --> добавляем структуру баг репорта
+нажимаем ctrl+c
+```
       
 **Part 4. Запушить структуру багрепорта на внешний репозиторий**
-	`git add . && git commit -m "add new file" && git push` 
+`git add . && git commit -m "add new file" && git push` 
 
 **Part 5. Вмержить ветку Bag Reports в Main**
-      ```
-	 git checkout main
-	 git merge BagReports
-      ```
+```
+git checkout main
+git merge BagReports
+```
       
 **Part 6. Запушить main на внешний репозиторий.**
        `git push -u origin main`
