@@ -1,4 +1,4 @@
-# TerminalLinux #
+# TerminalLinux # ETETRTETRE
 _____________________________________________
 ### **_Задание 1. Linux terminal (GitBash) commands_**
 _____________________________________________
