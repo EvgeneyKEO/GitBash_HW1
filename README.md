@@ -200,7 +200,7 @@ bug_report.json, добавить баг репорт в формате JSON.   
 __________________________________________________________________________
 ## **_GitHub. HW_2_**
 __________________________________________________________________________
-**Part 1. На локальном репозитории сделать ветки для:**
+**_Part 1. На локальном репозитории сделать ветки для:_**
 - Postman						       
 - Jmeter						       
 - CheckLists						       
@@ -225,7 +225,7 @@ git branch Charles
 git branch Mobile_testing
 ``` 
       
-**Part 2. Запушить все ветки на внешний репозиторий**
+**_Part 2. Запушить все ветки на внешний репозиторий_**
 ```
 git push -u origin Postman
 git push -u origin Jmeter
@@ -236,39 +236,39 @@ git push -u origin Charles
 git push -u origin Mobile_testing
 ```
 
-**Part 3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта**
+**_Part 3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта_**
 ```
 git checkout BagReports
 cat >>  bagrep.txt --> добавляем структуру баг репорта
 нажимаем ctrl+c
 ```
       
-**Part 4. Запушить структуру багрепорта на внешний репозиторий**
+**_Part 4. Запушить структуру багрепорта на внешний репозиторий_**
 `git add . && git commit -m "add new file" && git push`
 
-**Part 5. Вмержить ветку Bag Reports в Main**
+**_Part 5. Вмержить ветку Bag Reports в Main_**
 ```
 git checkout main
 git merge BagReports
 ```
       
-**Part 6. Запушить main на внешний репозиторий.**
+**_Part 6. Запушить main на внешний репозиторий._**
 `git push -u origin main`
 
-**Part 7. В ветке CheckLists набросать структуру чек листа**
+**_Part 7. В ветке CheckLists набросать структуру чек листа_**
 ```
 git checkout CheckLists
 cat >> CheckLists.json
 забиваем структуру чек-листа в формате JSON
 ```
 
-**Part 8. Запушить структуру на внешний репозиторий**
+**_Part 8. Запушить структуру на внешний репозиторий_**
 `git add . && git commit -m "add new file" && git push`
 
-**Part 9. На внешнем репозитории сделать Pull Request ветки CheckLists в main**
+**_Part 9. На внешнем репозитории сделать Pull Request ветки CheckLists в main_**
 `Переходим на внешний репозиторий в ветку CheckLists, нажимаем кнопку Compare&pull requset`
 
-**Part 10. Синхронизировать Внешнюю и Локальную ветки Main**
+**_Part 10. Синхронизировать Внешнюю и Локальную ветки Main_**
 ```
 git checkout main
 git fetch - просмотрим действительно ли были какие-то изменения на внешнем репозитории
