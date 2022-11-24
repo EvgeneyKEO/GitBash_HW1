@@ -244,7 +244,7 @@ cat >>  bagrep.txt --> добавляем структуру баг репорт
 ```
       
 **Part 4. Запушить структуру багрепорта на внешний репозиторий**
-`git add . && git commit -m "add new file" && git push` 
+```git add . && git commit -m "add new file" && git push``` 
 
 **Part 5. Вмержить ветку Bag Reports в Main**
 ```
