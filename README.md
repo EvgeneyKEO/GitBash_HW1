@@ -212,7 +212,7 @@ __________________________________________________________________________
  1.1. Создать на Githab репозитроий, в котором будут располагаться ветки [HW_31_group](https://github.com/EvgeneyKEO/HW_31_group.git)
  1.2. Клонируем внешний репозиторий на локальный репозиторий `git clone https://github.com/EvgeneyKEO/HW_31_group.git` 
  1.3. Заходим в склонированный репозиторий `cd HW_31_group/`
- 1.4. Создаем ветки Postman, Jmeter, CheckLists, Bag Reports, SQL, Charles, Mobile testing:
+ r1.4. Создаем ветки Postman, Jmeter, CheckLists, Bag Reports, SQL, Charles, Mobile testing:
       ```
       	 git branch Postman
 	 git branch Jmeter
