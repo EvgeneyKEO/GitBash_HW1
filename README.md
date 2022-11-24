@@ -200,14 +200,15 @@ bug_report.json, добавить баг репорт в формате JSON.   
 __________________________________________________________________________
 ## **_GitHub. HW_2_**
 __________________________________________________________________________
-1. На локальном репозитории сделать ветки для:
-- Postman		- `git branch branch_name`
-- Jmeter
-- CheckLists
-- Bag Reports
+_Part 1. На локальном репозитории сделать ветки для:_
+- Postman						       - `git branch Postman`
+- Jmeter						       - `git branch Jmeter`
+- CheckLists						       - `git branch CheckLists`
+- Bag Reports								
 - SQL
 - Charles
 - Mobile testing
+  1.1.
 
 2. Запушить все ветки на внешний репозиторий		       - `git push origin -all`
 3. В ветке Bag Reports сделать текстовый документ
