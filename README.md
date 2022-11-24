@@ -244,7 +244,7 @@ cat >>  bagrep.txt --> добавляем структуру баг репорт
 ```
       
 **Part 4. Запушить структуру багрепорта на внешний репозиторий**
-```git add . && git commit -m "add new file" && git push``` 
+`git add . && git commit -m "add new file" && git push`
 
 **Part 5. Вмержить ветку Bag Reports в Main**
 ```
@@ -253,24 +253,24 @@ git merge BagReports
 ```
       
 **Part 6. Запушить main на внешний репозиторий.**
-       `git push -u origin main`
+`git push -u origin main`
 
 **Part 7. В ветке CheckLists набросать структуру чек листа**
-      ```
-      	 git checkout CheckLists
-	 cat >> CheckLists.json
-	 забиваем структуру чек-листа в формате JSON
-      ```
+```
+git checkout CheckLists
+cat >> CheckLists.json
+забиваем структуру чек-листа в формате JSON
+```
 
 **Part 8. Запушить структуру на внешний репозиторий**
-	`git add . && git commit -m "add new file" && git push`
+`git add . && git commit -m "add new file" && git push`
 
 **Part 9. На внешнем репозитории сделать Pull Request ветки CheckLists в main**
-	`Переходим на внешний репозиторий в ветку CheckLists, нажимаем кнопку Compare&pull requset`
+`Переходим на внешний репозиторий в ветку CheckLists, нажимаем кнопку Compare&pull requset`
 
 **Part 10. Синхронизировать Внешнюю и Локальную ветки Main**
-      ```
-	 git checkout main
-	 git fetch - просмотрим действительно ли были какие-то изменения на внешнем репозитории
-	 git pull
-      ```
+```
+git checkout main
+git fetch - просмотрим действительно ли были какие-то изменения на внешнем репозитории
+git pull
+```
