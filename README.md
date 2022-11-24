@@ -210,17 +210,20 @@ __________________________________________________________________________
 - Mobile testing
 1.
  1.1. Создать на Githab репозитроий, в котором будут располагаться ветки [HW_31_group](https://github.com/EvgeneyKEO/HW_31_group.git)
+ 
  1.2. Клонируем внешний репозиторий на локальный репозиторий `git clone https://github.com/EvgeneyKEO/HW_31_group.git` 
+ 
  1.3. Заходим в склонированный репозиторий `cd HW_31_group/`
- r1.4. Создаем ветки Postman, Jmeter, CheckLists, Bag Reports, SQL, Charles, Mobile testing:
-      ```
-      	 git branch Postman
-	 git branch Jmeter
-	 git branch CheckLists
-	 git branch SQL
-	 git branch Charles
-	 git branch Mobile_testing
-      ``` 
+ 
+ 1.4. Создаем ветки Postman, Jmeter, CheckLists, Bag Reports, SQL, Charles, Mobile testing:
+``` 
+git branch Postman
+git branch Jmeter
+git branch CheckLists
+git branch SQL
+git branch Charles
+git branch Mobile_testing
+``` 
       
 **Part 2. Запушить все ветки на внешний репозиторий**
       ```
