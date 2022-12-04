@@ -2,9 +2,9 @@
 
 ### _CONTENT_
 _____________________________________________
-[:arrow_forward: Задание №1](https://github.com/EvgeneyKEO/GitBash_HW1#задание-1-linux-terminal-gitbash-commands)
-[:arrow_forward: Задание №2]()
-[:arrow_forward: Задание №3](https://github.com/EvgeneyKEO/GitBash_HW1#задание-3---написать-скрипт-который-выполнит-автоматически-пункты-3-4-5-6-7-8-13)
+### [:arrow_forward: Задание №1](https://github.com/EvgeneyKEO/GitBash_HW1#задание-1-linux-terminal-gitbash-commands)
+### [:arrow_forward: Задание №2]()
+### [:arrow_forward: Задание №3](https://github.com/EvgeneyKEO/GitBash_HW1#задание-3---написать-скрипт-который-выполнит-автоматически-пункты-3-4-5-6-7-8-13)
 _____________________________________________
 
 ### _Задание 1. Linux terminal (GitBash) commands_
